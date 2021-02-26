@@ -74,6 +74,7 @@
         .home__container{
             width: 90%;
             padding: 0;
+            height: 100%;
         }
      
         .home__image{
@@ -82,25 +83,27 @@
         .home__title{
             width: 100%;
             height: 100%;
-            justify-content: row;
+            justify-content: flex-start;
             align-items: center;
+            padding-top: 0;
             
         }
         .home__title > h1:nth-child(1){
             margin-bottom: 30px;
+            margin-top: 30px;
         }
         .home__title > h2{
             margin-top: 25px;
         }
 
         .home__buttons{
-            margin-top: 40px;
-            width: 80%;
+            margin-top: 60px;
+            width: 90%;
         }
 
         .social-icons {
-            width: 100%;
-            margin-top: 40px;
+            width: 90%;
+            margin-top: 100px;
           }
         
         .social-icon-link {
