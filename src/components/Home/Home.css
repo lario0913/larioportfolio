@@ -133,6 +133,9 @@
         width: 90%;
         flex-direction: row;
     }
+    .home__buttons > .to-about{
+        margin-bottom: 0px;
+    }
 
     .social-icons {
         width: 90%;
