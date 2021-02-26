@@ -8,24 +8,9 @@ import { IconContext } from 'react-icons/lib'
 
 function Navbar() {
     const [click, setClick] = useState(false)
-    // const [button, setButton] = useState(true)
 
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
-
-//  const showButton = () =>{
-//         if (window.innerWidth <= 960){
-//             setButton(false)
-//         }else{
-//             setButton(true)
-//         }
-//     }   
-
-    // useEffect(()=>{
-    //     showButton()
-    // }, [])
-
-    // window.addEventListener('resize', showButton)
 
     return (
         <>
@@ -47,12 +32,12 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                                Services
+                                About Me
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu} >
-                                Products
+                                Contact Me
                             </Link>
                         </li>
                     </ul>
