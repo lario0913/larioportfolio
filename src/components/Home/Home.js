@@ -21,9 +21,9 @@ const Home = () => {
                         <h2>Frontend Developer</h2>
 
                         <div className="home__buttons">
-                            <Link to='/about' className="to-about">
+                            <Link to='/portfolio' className="to-about">
                                 <Button buttonStyle='btn--outline'>
-                                    More Info 
+                                    Projects 
                                 </Button>
                             </Link>
                             <Link to='/contact'>
