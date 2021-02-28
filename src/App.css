@@ -10,11 +10,3 @@
   flex-direction: column;
   background-color: #1c2237;
 }
-/* 
-@media (min-width: 800px){
-  .app{
-    padding: 0 100px;
-    margin-top: 5vh;
-    min-height: 90vh;
-  }
-} */
