@@ -74,8 +74,14 @@
 }
 
 @media screen and (max-width: 750px){
-    .about__container{
+    .about{
         width: 95%;
+    }
+    .about__container{
+        width: 100%;
+        /* border: 2px solid red; */
+        padding: 0;
+        text-align: justify;
     }
     .skillset{
         width: 95%;
