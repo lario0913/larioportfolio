@@ -11,6 +11,7 @@
     text-align: center;
     color: #ffffff;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .about__image > img{
