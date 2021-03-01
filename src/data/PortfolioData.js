@@ -47,3 +47,5 @@ export const PortfolioData = [
         alt: "Quiz App"
     }
 ]
+
+// A full stack application centered around GraphQL with ReactJS at the frontend and Nodejs at the backend.
