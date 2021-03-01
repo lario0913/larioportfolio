@@ -53,8 +53,8 @@
 
     .contact > .contact__container{
         width: 100%;
-        grid-template-columns: 1fr;
-        grid-gap: 15px;
+        display: flex;
+        flex-direction: column;
     }
     .contact > div > .contact__map{
         height: 400px;
