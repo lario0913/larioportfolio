@@ -4,6 +4,7 @@ import {FaPhoneAlt} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 import {ImLocation2} from 'react-icons/im'
 import Title from '../Title/Title'
+import Fade from 'react-reveal/Fade'
 
 const Contact = () => {
     return (
@@ -11,10 +12,13 @@ const Contact = () => {
             <div className="contact">
                 <Title title="Contact Me" />
                 <div className="contact__container">
+                    <Fade left cascade>
                     <div className="contact__map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8602322875295!2d3.9321066145271493!3d7.369558794682191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039931f9ac36339%3A0xf9afe37ee1801eb8!2sOlomi%20Academy!5e0!3m2!1sen!2sng!4v1614611764782!5m2!1sen!2sng" width="600" height="450" style={{border:0}} title="map" allowFullscreen="" loading="lazy"></iframe>
-                    </div>            
-                    <div className="contact__details">
+                    </div> 
+                    </Fade>
+                    <Fade right cascade>
+                        <div className="contact__details">
                     <div className="contact__detail">
                         <div className="contact__icon">
                             <FaPhoneAlt />
@@ -44,6 +48,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>            
+                    </Fade>
                 </div>
             </div>
     )

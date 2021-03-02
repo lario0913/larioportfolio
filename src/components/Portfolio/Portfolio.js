@@ -5,16 +5,19 @@ import Title from '../Title/Title'
 import './Portfolio.css'
 import {FaGithub} from 'react-icons/fa';
 import {SiWebmoney} from 'react-icons/si'
+import Fade from 'react-reveal/Fade'
  
 
 const Portfolio = () => {
     return (
         <div className="portfolio">
             <Title title="Projects" />
+            <Fade left cascade>
             <div className="porfolio__projects">
                 {
                     PortfolioData.map((data, index) => {
                         return (
+                            
                             <div key={index} className="project">
                                 <div className="project__title">
                                     <h5>{data.title}</h5>
@@ -42,6 +45,7 @@ const Portfolio = () => {
                     })
                 }
             </div>
+            </Fade>
         </div>
     )
 }

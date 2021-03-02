@@ -6,25 +6,31 @@ import Title from '../Title/Title'
 import {FaLaptopCode} from 'react-icons/fa'
 import {BsPencilSquare} from 'react-icons/bs'
 import {BsBag} from 'react-icons/bs'
+import Fade from 'react-reveal/Fade'
 
 const AboutMe = () => {
     return (
         <div className="about">
-        <Title title="About Me" />
-        <div className="about__container">
-            <div className="about__image">
-                <img 
-                    src={AboutMeImg}
-                    alt="Olanrewaju"
-                />
+            <Title title="About Me" />        
+            <div className="about__container">
+            <Fade left cascade >
+                <div className="about__image">
+                    <img 
+                        src={AboutMeImg}
+                        alt="Olanrewaju"
+                    />
+                </div>
+            </Fade>
+            <Fade right cascade >
+                <div className="about__data">
+                    <p>{AboutMeData[0].firstParagraph}</p>
+                    <p>{AboutMeData[0].secondParagraph}</p>
+                    <p>{AboutMeData[0].thirdParagraph}</p>
+                </div>
+            </Fade>
             </div>
-            <div className="about__data">
-                <p>{AboutMeData[0].firstParagraph}</p>
-                <p>{AboutMeData[0].secondParagraph}</p>
-                <p>{AboutMeData[0].thirdParagraph}</p>
-            </div>
-        </div>
         <Title title="What I Do" />
+        <Fade bottom cascade>
         <div className="skillset">
             <div>
                 <div className="icon">
@@ -54,6 +60,7 @@ const AboutMe = () => {
                 </p>
             </div>
         </div>
+        </Fade>
         </div>
     )
 }

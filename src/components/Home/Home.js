@@ -10,15 +10,19 @@ import {
     FaLinkedin,
     FaGithub
   } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade'
+import SliderText from '../SliderText/SliderText'
 
 const Home = () => {
     return (
         <div className="home">
-            <div className="home__container">     
+            <div className="home__container"> 
+                <Fade left cascade>    
                 <div className="home__title">
                         <h1>Hi,</h1>
                         <h1>I'm Olanrewaju</h1>
-                        <h2>Frontend Developer</h2>
+                        {/* <h2>Frontend Developer</h2> */}
+                        <h2><SliderText text={["Frontend Developer", "Software Engineer"]} /></h2>
 
                         <div className="home__buttons">
                             <Link to='/portfolio' className="to-about">
@@ -79,13 +83,15 @@ const Home = () => {
                         </div>
         
                 </div>
+                </Fade>
+                <Fade right cascade>
                 <div className="home__image">
                     <img 
                         src={HomeImg}
                         alt="olanrewaju's, frontend developer"
                     />
                 </div>
-            
+                </Fade>
             </div>
         </div>
     )
