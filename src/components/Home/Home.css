@@ -1,7 +1,7 @@
 .home{
     margin: 0;
     background: #1c2237;
-    height: 100vh;
+    height: calc(100vh - 40px);
     display: flex;
     justify-content: center;
     align-items: center;
