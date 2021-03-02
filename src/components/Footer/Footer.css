@@ -9,3 +9,9 @@
 .footer > p{
     font-size: 14px;
 }
+
+@media screen and (max-width: 65px){
+    .footer > p{
+        font-size: 10px;
+    }
+}

@@ -47,7 +47,7 @@ const AboutMe = () => {
                 </div>
                 <h3>Skill-set</h3>
                 <p>
-                React.js & Redux, SASS, Git & Github, Firebase, CSS3, HTML 5 and NodeJs
+                Javascipt, React.js & Redux, SASS, Git & Github, Firebase, CSS3, HTML 5 and NodeJs
                 </p>
             </div>
             <div>
