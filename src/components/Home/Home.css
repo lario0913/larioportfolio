@@ -31,6 +31,9 @@
     justify-content: center;
     height: 90%;
 }
+.home__title > p{
+    margin-top: 15px;
+}
 .home__buttons{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -124,7 +127,7 @@
         margin-bottom: 30px;
         margin-top: 30px;
     }
-    .home__title > h2{
+    .home__title > p{
         margin-top: 25px;
     }
 

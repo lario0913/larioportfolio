@@ -22,7 +22,7 @@ const Home = () => {
                         <h1>Hi,</h1>
                         <h1>I'm Olanrewaju</h1>
                         {/* <h2>Frontend Developer</h2> */}
-                        <h2><SliderText text={["Frontend Developer", "Software Engineer", "I build scalable wep apps"]} /></h2>
+                        <p><SliderText text={["Frontend Developer", "Software Engineer", "I build scalable wep apps"]} /></p>
 
                         <div className="home__buttons">
                             <Link to='/portfolio' className="to-about">
