@@ -8,12 +8,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
     padding-bottom: 30px;
 }
 
 .porfolio__projects > .project {
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     font-size: 1rem;
     color: #ffffff;
@@ -30,8 +30,8 @@
     width: 100%;
     padding-top: 15px;
     padding-bottom: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     background-color: #ffffff;
 }
 .porfolio__projects > .project> .project__title > h5{
@@ -60,8 +60,8 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.9rem;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background-color: #ffffff;
 }
 .repo{
