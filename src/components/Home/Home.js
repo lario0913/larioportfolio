@@ -11,7 +11,8 @@ import {
     FaGithub
   } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade'
-import SliderText from '../SliderText/SliderText'
+import Typical from 'react-typical'
+
 
 const Home = () => {
     return (
@@ -21,8 +22,17 @@ const Home = () => {
                 <div className="home__title">
                         <h1>Hi,</h1>
                         <h1>I'm Olanrewaju</h1>
-                        {/* <h2>Frontend Developer</h2> */}
-                        <p><SliderText text={["Frontend Developer", "Software Engineer", "I build scalable wep apps"]} /></p>
+                        <Typical
+                            steps={
+                                [
+                                    'Frontend Developer', 1500, 
+                                    'Computer Scientist', 1000, 
+                                    'I build Scalable Web Apps', 500
+                                ]
+                            }
+                            loop={Infinity}
+                            wrapper="p"
+                        />
 
                         <div className="home__buttons">
                             <Link to='/portfolio' className="to-about">
